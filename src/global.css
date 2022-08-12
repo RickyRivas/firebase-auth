@@ -1,0 +1,32 @@
+	/* Quick Base Styles */
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+
+	html,
+	body {
+		font-size: 5vw;
+		font-family: 'General Sans', sans-serif;
+		width: 100vw;
+		height: 100vh;
+	}
+	@media only screen and (min-width: 768px) {
+		html,
+		body {
+			font-size: 15px;
+		}
+	}
+	@media screen and (min-width: 1300px) {
+		html,
+		body {
+			font-size: 20px;
+		}
+	}
+	@media screen and (min-width: 2000px) {
+		html,
+		body {
+			font-size: 1vw;
+		}
+	}
