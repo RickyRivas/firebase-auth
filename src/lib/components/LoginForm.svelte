@@ -58,6 +58,8 @@
 	form {
 		padding: 1em;
 		box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+		width: max-content;
+		margin: auto;
 	}
 	form .form-control {
 		margin-bottom: 1em;

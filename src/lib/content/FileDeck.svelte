@@ -1,5 +1,5 @@
 <script>
-	import FileTable from './fileTable.svelte';
+	import FileTable from './FileTable.svelte';
 	import UploadRow from './UploadRow.svelte';
 	import { getStorage, ref, getMetadata, listAll } from 'firebase/storage';
 	import { onMount } from 'svelte';

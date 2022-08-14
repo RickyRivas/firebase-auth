@@ -9,12 +9,12 @@
 	export let functionProp = () => {};
 
 	onMount(() => {
-		const userId = localStorage.getItem('uid');
-		const path = `${userId}/${folder}`;
+		const user = localStorage.getItem('uid');
+		const path = `${user}/${folder}`;
 
 		let myDropzone = new Dropzone(`#my-form-${folder}`);
 		myDropzone.options.disablePreviews = true;
-		myDropzone.on('addedFile', (upload) => {
+		myDropzone.on('addedfile', (upload) => {
 			let storageRef = ref(storage, `${path}/${upload.name}`);
 			uploadBytes(storageRef, upload).then((snapshot) => {
 				console.log('uploaded a blob or file');

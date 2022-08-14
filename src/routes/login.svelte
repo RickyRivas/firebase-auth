@@ -9,5 +9,7 @@
 <style>
 	h1 {
 		margin-bottom: 1em;
+		text-align: center;
+		margin: 1em 0;
 	}
 </style>
